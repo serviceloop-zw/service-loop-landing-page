@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://service-linker-delta.vercel.app').replace(/\/$/, '');
+const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://app-serviceloop.vercel.app').replace(/\/$/, '');
 const navItems = [
   { href: '/how-it-works', label: 'How it works' },
   { href: '/about', label: 'About' },
