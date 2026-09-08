@@ -7,7 +7,7 @@ import { JourneySection } from "./JourneySection";
 import { Footer } from "@/components/layout/Footer";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 
-const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://service-linker-delta.vercel.app').replace(/\/$/, '');
+const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://app-serviceloop.vercel.app').replace(/\/$/, '');
 
 export function LandingPage() {
   const crests = [
