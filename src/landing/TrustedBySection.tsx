@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Button } from '@/components/ui/Button';
 
-const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://service-linker-delta.vercel.app').replace(/\/$/, '');
+const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'app-serviceloop.vercel.app').replace(/\/$/, '');
 
 const columns = [
   {
