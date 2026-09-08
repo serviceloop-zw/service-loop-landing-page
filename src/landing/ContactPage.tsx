@@ -4,7 +4,7 @@ import { SiteHeader } from '@/components/layout/SiteHeader';
 import { Footer } from '@/components/layout/Footer';
 import { Button } from '@/components/ui/Button';
 
-const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://service-linker-delta.vercel.app').replace(/\/$/, '');
+const appUrl = (import.meta.env.VITE_SERVICE_LOOP_APP_URL || 'https://app-serviceloop.vercel.app').replace(/\/$/, '');
 const email = 'hello@serviceloop.co.zw';
 
 const contactMethods = [
